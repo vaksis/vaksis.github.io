@@ -1,4 +1,182 @@
-/*placeholder*/
-.main {
-    background-color: gray; 
+body {
+    background-color: gray;
+    color: #000000;
+    font-family: 'trebuchet MS', 'Comic sans MS';
+}
+.pic {
+    height:255px;
+}
+.new {
+    color: rgba(107, 142, 35);
+}
+a {
+    color: #2c2f33;
+}
+a :visited {
+    color: #23272a;
+}
+.img-patch {
+    height: 400px;
+}
+.img-h1 {
+  height: 2em
+}
+.img-h2 {
+  height: 1.5em
+}
+.img-h3 {
+  height: 1.17em
+}
+.img-h4 {
+  height: 1em
+}
+.img-h5 {
+  height: .83em
+}
+.img-h6 {
+  height: .67em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800 !important;
+}
+.navbar-logo {
+    height:50px
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.rounded-square {
+  border-radius: 50px;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+  position: relative;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  overflow: hidden;
+  background-color: gray;
+  background-position: center center;
+  background-attachment: scroll;
+}
+
+header.joulu {
+  background-color: #E8282C !important;
+}
+
+header.index {
+  background-color:gray !important;
+/*  background-image: url("./snowrunner.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.snowrunner {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center !important;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.video {
+  width: 400px !important;
+  height: auto;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #e1c669 !important;
+}
+
+.btn-primary {
+  background-color: #0000ff;
+  border-color: #9494ff;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #000080 !important;
+  border-color: #9494ff !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #e1c669;
+}
+
+.btn-secondary {
+  background-color: #e1c669;
+  border-color: #e1c669;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #e1c669 !important;
+  border-color: #e1c669 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem #e1c669;
 }
