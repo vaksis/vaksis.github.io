@@ -4,6 +4,25 @@ body {
     font-family: 'trebuchet MS', 'Comic sans MS';
 }
 
+
+.grid-container-element {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    width: 100%; 
+}
+.card {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  display: inline-block;
+  color: #000000;
+  margin: 0;
+  float: none;
+}
+
+
 .pic {
     height:255px;
 }
